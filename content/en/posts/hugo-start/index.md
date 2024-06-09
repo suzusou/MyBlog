@@ -71,7 +71,7 @@ hugo serve -D
 ```
 [Hugo blog awesome](https://themes.gohugo.io/themes/hugo-blog-awesome/) to change various items.
 
-# Reference site
+# Reference Site
 [I tried using HUGO](https://zenn.dev/ttr0108/articles/1_hugo_introduction)   
 [Hugo blog awesome](https://themes.gohugo.io/themes/hugo-blog-awesome/)  
  for reference. 
