@@ -1,6 +1,6 @@
 ---
 title: Hugoで静的サイトを構築
-date: 2024-06-01
+date: 2024-06-09
 author: Suzusou
 description: Hugoで静的サイトを構築
 tags:

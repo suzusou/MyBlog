@@ -1,6 +1,6 @@
 ---
 title: Building a static site with Hugo
-date: 2024-06-01
+date: 2024-06-09
 author: Suzusou
 description: Building a static site with Hugo
 tags:
