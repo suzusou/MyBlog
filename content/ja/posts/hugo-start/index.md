@@ -6,8 +6,9 @@ description: Hugoで静的サイトを構築
 tags:
   - emoji
 ---
-
-今回は、Hugoで自分のブログを立ち上げたのでそのやり方をまとめていきます。  
+# はじめに
+今回は、Hugoで自分のブログを立ち上げたのでそのやり方をまとめていきます。
+  
 # Hugoのインストール  
 [Hugo Releases](https://github.com/gohugoio/hugo/releases) こちらのサイトにアクセスして
 hugo_extended_バージョン番号_OS名.zipをダウンロードしてください。その後、zipファイルを展開し環境変数のPATHに登録してください。
