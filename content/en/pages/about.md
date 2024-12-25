@@ -5,9 +5,9 @@ author: Suzusou
 ---
 
 ## Introduction
-Hi! I'm suzusou.
-I am a student at an IT technical school and I am a web engineer.
-I publish a blog on a regular basis.
+Hi, I'm Bellfat, and I study mainly web-based technologies.  
+Recently, I've been participating in competitive programming and CTF (Capture The Flag), and I've been playing around with Python a lot since I discovered how useful it is.  
+I post a technical blog irregularly, so if you have time, please take your time to read it.
 
 ## SNS、Contact
 | SNS,Contact| Link|
