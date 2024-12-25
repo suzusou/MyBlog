@@ -7,15 +7,15 @@ tags:
   - emoji
 ---
 
-# はじめに
+## はじめに
 今回は、ClaudeのMCPを使ってリアルタイム検索して情報を取得したり、Localにあるファイルやディレクトリを操作してみました。
 
-# Claude MCP(Model Context Protocol)とは
+## Claude MCP(Model Context Protocol)とは
 Anthropicが開発しているフライ言語モデル「Claude」の機能の一つでAIとデータソースやサービスとを簡単に繋げられる仕組みです。
 従来のClaudeではWEB検索のような機能にアクセスすることができませんでしたが、MCPを使えば最新のデータにアクセスして、
 その情報を自分のPCに保存して活用することができるようになりました。
 
-# 事前準備
+## 事前準備
 - Node.jsのインストール  
 [Node.js](https://nodejs.org/en)  
 - Claude アカウントの作成  
@@ -25,11 +25,11 @@ Anthropicが開発しているフライ言語モデル「Claude」の機能の�
 - Brave Search API　アカウント作成  
 [Brave Search API](https://brave.com/search/api/)
 
-# 環境
+## 環境
 - Windows11
 - node.js(v22.12.0)
 
-# Brave Search APIの導入
+## Brave Search APIの導入
 Claudeのプロンプトを使い、Web検索できるようにします。
 ### 1. API Keyの発行  
 Brave Search APIの画面を開き、API Keyを発行してください。
@@ -76,7 +76,7 @@ brave_local_searchとbrave_web_searchが入っていたら成功です。
 
 これでClaudeのプロンプトでWeb検索ができるようになりました。
 
-# Filesystemの導入
+## Filesystemの導入
 Localにあるファイルやディレクトリ操作をできるようにします。
 
 ### 1. claude_desktop_config.jsonに書き込む
@@ -127,12 +127,12 @@ claude_desktop_config.jsonをEditorで開き、「filesystem」の部分を追�
 
 Desktopに上記の内容のテキストファイルが保存されていました。
 
-# 最後に
+## 最後に
 Brave Search APIやFilesystemの他にも色々なServerが開発されているそうです。
 Git関連やGoogleサービス、データベースとも連携できるのでぜひ興味がある方は実装してみてください。
 最後まで読んでいただきありがとうございました。次回もぜひよろしくお願いします。
 
 
-# 参考サイト
+## 参考サイト
 [MCP Server](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)   
  を参考にさせていただきました。 

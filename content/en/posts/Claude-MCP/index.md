@@ -7,15 +7,15 @@ tags:
   - emoji
 ---
 
-# Introduction
+## Introduction
 In this article, I tried to use Claude's MCP to search and retrieve information in real time and manipulate files and directories in Local.
 
-# What is Claude MCP (Model Context Protocol)?
+## What is Claude MCP (Model Context Protocol)?
 It is one of the features of Claude, a fly language model developed by Anthropic, and is a mechanism to easily connect AI with data sources and services.
 While conventional Claude does not allow access to functions such as web search, MCP allows you to access the latest data and use it on your own PC,
 You can now save and utilize that information on your own PC.
 
-# Preparation
+## Preparation
 - Install Node.js  
 [Node.js](https://nodejs.org/en)  
 - Create a Claude account  
@@ -25,11 +25,11 @@ You can now save and utilize that information on your own PC.
 - Create a Brave Search API account  
 [Brave Search API](https://brave.com/search/api/)
 
-# Environment
+## Environment
 - Windows11
 - node.js(v22.12.0)
 
-# Brave Search API
+## Brave Search API
 Use Claude's prompts to enable web search.
 ### 1. Get API Key  
 Open the Brave Search API screen and issue an API Key.
@@ -76,7 +76,7 @@ When you actually ask for today's weather in Tokyo, you will be asked if you wan
 
 Now you can search the web at the Claude prompt.
 
-# Filesystem
+## Filesystem
 This will allow you to manipulate files and directories in Local.
 
 ### 1. write to claude_desktop_config.json
@@ -127,13 +127,13 @@ You can do the following in conjunction with the Brave Search API mentioned earl
 
 A text file with the above content was saved in Desktop.
 
-# Lastly.
+## Lastly.
 In addition to the Brave Search API and Filesystem, there are many other Servers being developed.
 It can also be used with Git-related and Google services and databases, so if you are interested, please try to implement it.
 Thank you for reading to the end. We look forward to seeing you again next time.
 
 
-# Reference sites
+## Reference sites
 [MCP Server](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)     
  I have referred to the following website. 
 

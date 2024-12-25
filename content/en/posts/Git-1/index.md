@@ -7,34 +7,34 @@ tags:
   - emoji
 ---
 
-# Introduction
+## Introduction
 Git is said to be an essential skill for team development.  
 In this article, I will explain the basic usage of Git commands as well as my output since I have studied about Git commands.
 
-# Git Setup 
+## Git Setup 
 Many people have explained Git setup, so I will omit it here.   
 [Git Installation & Setup](https://qiita.com/T-H9703EnAc/items/4fbe6593d42f9a844b1c#%E6%89%8B%E9%A0%862git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)  
 [Official GitHub website](https://github.com)
 
-# Git in a Nutshell
+## Git in a Nutshell
 Here is an image diagram of Git. From here on, we will refer to this diagram for explanation.  
 
 ![Landscape](GitHub_全体像.png) 
 
-##### Working tree
+### Working tree
 A working place for editing files.
 This is where files are edited, added, deleted, etc.
-##### Stage Environment
+### Stage Environment
 A place to record files to commit.
 Files edited in the working tree are moved to the index using the add command.
-##### Local Repository
+### Local Repository
 A place to record commit history and files to upload to the remote repository.
 Files on the index are committed to the local repository with the commit command.
-##### Remote Repository
+### Remote Repository
 A location shared by multiple people.
 Upload locally committed files to the remote repository with the push command.
 
-# Manage with Git
+## Manage with Git
 In this article, I will explain with only one HTML file to make it as easy to understand as possible.
 After creating the HTML file in any folder, open a command prompt and navigate to any folder. 
 
@@ -74,7 +74,8 @@ We will raise it from the work tree to the stage. (Operation shown in Figure 1)
 
 ```git
 git add index.html
-```` git add index.html
+```
+git add index.html
 
 index.html" is an arbitrary file name.  
 If you want to do all files in the project, use ". (dot) if you want to do all files in the project.  
@@ -89,20 +90,20 @@ If you want to update a file, you can also run the command in the order of work 
 
 
 
-# Commit local repository to remote repository (GitHub)
+## Commit local repository to remote repository (GitHub)
 
 
 After committing to the local repository, push to the remote repository (GitHub). (Operation shown in Figure 3)
 
 ```git
 git push -u origin master
-````
+```
 
 where origin is the name of the remote repository and master is the name of the branch.
 Both names are set by default.
 
-# Create a branch
-##### branch
+## Create a branch
+### branch
 Branches are used to branch and record work history.  
 Changes on a branch do not and will not affect other branches until they are merged.  
 
@@ -124,7 +125,7 @@ Now you see the branch you just created and your main branch.
   main
 ```
 
-# Commonly used commands
+## Commonly used commands
 
 To return to the working tree from the stage environment (operation shown in Figure 4)    
 
@@ -140,7 +141,7 @@ git restore index.html(filename)
 
 If you want to specify all files, use ". dot in the filename.
 
-# Recommended Blogs
+## Recommended Blogs
 [Building a static site with Hugo](https://bellfat.com/ja-gb/posts/hugo-start/)   
 
 
