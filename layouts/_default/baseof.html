@@ -1,41 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
- <meta name="robots" content=
- {{- if or (.Params.private) (in (string .Permalink) "404.html") (in (string .Permalink) "404.php") -}}
-     "noindex, nofollow"
- {{- else -}}
-     "index, follow"
- {{ end }} />
-
- <!-- Meta Keywords/Tags for Users to search for in Search Engines -->
- <meta name="keywords" content="
- {{- with .Params.tags }}
-     {{- range $key, $item := . -}}
-         {{- if ne $key 0 -}}
-         ,
-         {{- end -}}
-         {{ with $.Site.GetPage (printf "/%s/%s" "tags" . ) }}
-             {{- .Title -}}
-         {{- end }}
-     {{- end }}
- {{- else -}}
-     Default, Keywords, That, Describe, Your, Page
- {{- end }}" />   
 
  <!-- Canonical URLs -->
  <link rel="canonical" href="{{ .Permalink }}" />
  <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Site.LanguageCode }}" />
 
-
  
 
-
-
- <!-- Links to RSS Feed -->
- {{ range .AlternativeOutputFormats -}}
-     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
- {{ end -}}
     {{- partial "head.html" . -}}
     <body data-theme = "{{ .Site.Params.defaultColor }}" class="notransition">
         {{- partial "scriptsBodyStart.html" . -}}
