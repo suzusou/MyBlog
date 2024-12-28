@@ -1,7 +1,7 @@
 ---
 title: About
 description: 'self-introduction'
-author: Suzusou
+author: Bellfat
 ---
 
 ## Introduction

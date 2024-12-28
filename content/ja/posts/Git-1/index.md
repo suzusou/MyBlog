@@ -3,6 +3,7 @@ title: Git基本的な使い方まとめ１
 date: 2024-06-19
 author: Suzusou
 description: Git基本的な使い方まとめ１
+image: title.png
 tags:
   - emoji
 ---

@@ -3,6 +3,7 @@ title: File manipulation and searching with Claude MCP
 date: 2024-12-22
 author: Suzusou
 description: File manipulation and searching with Claude MCP
+image: title.png
 tags:
   - emoji
 ---

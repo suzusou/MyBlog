@@ -1,7 +1,7 @@
 ---
 title: About
 description: '自己紹介'
-author: Suzusou
+author: Bellfat
 ---
 
 ## 自己紹介
@@ -15,6 +15,7 @@ author: Suzusou
 | Email   | bell@bellfat.com |
 | GitHub  | [bellfat](https://github.com/suzusou)|
 | X | [@bellfat0606](https://x.com/bellfat0606) |
+
 
 
 

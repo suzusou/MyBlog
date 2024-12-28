@@ -3,9 +3,11 @@ title: Claude MCPを使用しファイル操作、検索
 date: 2024-12-22
 author: Suzusou
 description: Claude MCPを使用しファイル操作、検索
+image: title.png
 tags:
   - emoji
 ---
+
 
 ## はじめに
 今回は、ClaudeのMCPを使ってリアルタイム検索して情報を取得したり、Localにあるファイルやディレクトリを操作してみました。

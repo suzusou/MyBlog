@@ -1,11 +1,8 @@
-title = "Awesome Hugo blog"
-baseURL = 'https://hba.sid.one/'
-
-
-# This is what goes in <html lang="">
+title = "Bellfat Blog"
+baseURL = 'https://bellfat.com/'
+#languageCode = 'ja'
+#defaultContentLanguage = "ja-gb"
 languageCode = 'en-us'
-
-# This defines how dates are formatted
 defaultContentLanguage = "en-gb"
 
 # Enable emojis globally

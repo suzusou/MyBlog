@@ -1,0 +1,46 @@
+<div class="highlight-box warning">
+    {{.Inner}}
+</div>
+<style>
+    .highlight-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.highlight-box::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.info {
+    background-color: #242930;
+}
+
+.info::before {
+    background: url("/highlight_info.svg") no-repeat;
+}
+
+.warning {
+    background-color: #d8b92e; 
+    color: #202429;
+}
+
+.warning::before {
+    background: url("/highlight_warning.svg") no-repeat;
+}
+
+.critical {
+    background-color: #d82e2e; 
+    color: #202429;
+}
+
+.critical::before {
+    background: url("/highlight_critical.svg") no-repeat;
+}
+
+</style>

@@ -3,6 +3,7 @@ title: Git Basic Usage Summary 1
 date: 2024-06-19
 author: Suzusou
 description: Git Basic Usage Summary 1
+image: title.png
 tags:
   - emoji
 ---

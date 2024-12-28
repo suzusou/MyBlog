@@ -3,6 +3,7 @@ title: Building a static site with Hugo
 date: 2024-06-09
 author: Suzusou
 description: Building a static site with Hugo
+image: title.png
 tags:
   - emoji
 ---
