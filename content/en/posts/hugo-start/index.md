@@ -1,7 +1,7 @@
 ---
 title: Building a static site with Hugo
 date: 2024-06-09
-author: Suzusou
+author: Bellfat
 description: Building a static site with Hugo
 image: title.png
 tags:

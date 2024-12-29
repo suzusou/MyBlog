@@ -1,7 +1,7 @@
 ---
 title: Git基本的な使い方まとめ１
 date: 2024-06-19
-author: Suzusou
+author: Bellfat
 description: Git基本的な使い方まとめ１
 image: title.png
 tags:
@@ -141,6 +141,6 @@ git restore index.html(ファイル名)
 
 ファイルをすべて指定したい場合は、「.」ドットをファイル名に指定してください。
 
-## おすすめブログ
+## おすすめ記事
 [Hugoで静的サイトを構築](https://bellfat.com/ja-gb/posts/hugo-start/)   
 

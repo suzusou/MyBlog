@@ -1,7 +1,7 @@
 ---
 title: Claude MCPを使用しファイル操作、検索
 date: 2024-12-22
-author: Suzusou
+author: Bellfat
 description: Claude MCPを使用しファイル操作、検索
 image: title.png
 tags:

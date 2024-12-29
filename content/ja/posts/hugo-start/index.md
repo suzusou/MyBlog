@@ -1,7 +1,7 @@
 ---
 title: Hugoで静的サイトを構築
 date: 2024-06-09
-author: Suzusou
+author: Bellfat
 description: Hugoで静的サイトを構築
 image: title.png
 tags:
