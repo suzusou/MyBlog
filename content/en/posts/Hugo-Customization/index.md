@@ -127,7 +127,7 @@ Copy that standard.html into /layouts/partials/meta/ in your own blog and edit i
 <meta name="twitter:title" content="Bellfat-Blog">
 ```
 
-### *Supplement
+### Supplement
 `{{ .Permalink }}` is a URL set for each and every page and is a link that is intended to remain permanently unchanged when its content is updated. 
 By default, it is set to the path to a file under content.  
 ```HTML
